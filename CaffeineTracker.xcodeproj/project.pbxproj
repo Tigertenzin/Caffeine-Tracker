@@ -1,0 +1,1331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8526D94325522895001F1266 /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526D94225522895001F1266 /* NSPersistentContainer.swift */; };
+		8526D95225522943001F1266 /* CaffeineTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85B4315624F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld */; };
+		8526D95A25522C5C001F1266 /* CaffeineTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85B4315624F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld */; };
+		8526D9632552317F001F1266 /* NSCustomPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526D9622552317F001F1266 /* NSCustomPersistentContainer.swift */; };
+		8526D96B25523268001F1266 /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526D94225522895001F1266 /* NSPersistentContainer.swift */; };
+		8526D973255232B4001F1266 /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526D94225522895001F1266 /* NSPersistentContainer.swift */; };
+		8526D97B2552352F001F1266 /* CaffeineTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85B4315624F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld */; };
+		8526D98325523531001F1266 /* CaffeineTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85B4315624F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld */; };
+		8528DA27254FBDCC007228E7 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528DA26254FBDCC007228E7 /* IntentHandler.swift */; };
+		8528DA2E254FBDCC007228E7 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A53EAE254F20C20051DE3D /* IntentsUI.framework */; };
+		8528DA31254FBDCC007228E7 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528DA30254FBDCC007228E7 /* IntentViewController.swift */; };
+		8528DA34254FBDCC007228E7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8528DA32254FBDCC007228E7 /* MainInterface.storyboard */; };
+		8528DA38254FBDCD007228E7 /* CaffeineTrackerIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8528DA2D254FBDCC007228E7 /* CaffeineTrackerIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8528DA3B254FBDCD007228E7 /* CaffeineTrackerIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8528DA24254FBDCC007228E7 /* CaffeineTrackerIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8528DA4A254FBF56007228E7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8528DA49254FBF56007228E7 /* Intents.intentdefinition */; };
+		8528DA71254FC555007228E7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8528DA49254FBF56007228E7 /* Intents.intentdefinition */; };
+		8528DA79254FC557007228E7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8528DA49254FBF56007228E7 /* Intents.intentdefinition */; };
+		8528DA91254FC791007228E7 /* HealthDataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528DA88254FC78C007228E7 /* HealthDataQuery.swift */; };
+		854EFBCC254900720032BEE3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854EFBCB254900720032BEE3 /* WidgetKit.framework */; };
+		854EFBCE254900720032BEE3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854EFBCD254900720032BEE3 /* SwiftUI.framework */; };
+		854EFBD1254900720032BEE3 /* QuickAddWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854EFBD0254900720032BEE3 /* QuickAddWidget.swift */; };
+		854EFBD3254900730032BEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854EFBD2254900730032BEE3 /* Assets.xcassets */; };
+		854EFBD7254900730032BEE3 /* QuickAddWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 854EFBCA254900720032BEE3 /* QuickAddWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		854EFBE525490A5F0032BEE3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854EFBCB254900720032BEE3 /* WidgetKit.framework */; };
+		854EFBE625490A5F0032BEE3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854EFBCD254900720032BEE3 /* SwiftUI.framework */; };
+		854EFBE925490A5F0032BEE3 /* GraphWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854EFBE825490A5F0032BEE3 /* GraphWidget.swift */; };
+		854EFBEB25490A610032BEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854EFBEA25490A610032BEE3 /* Assets.xcassets */; };
+		854EFBEF25490A610032BEE3 /* GraphWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 854EFBE425490A5F0032BEE3 /* GraphWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8550B4C424F6F7CC00C0F895 /* AddItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8550B4C324F6F7CC00C0F895 /* AddItemSheet.swift */; };
+		8550B4C824F7020400C0F895 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8550B4C724F7020400C0F895 /* HealthKit.framework */; };
+		858D151B2522D4F700197290 /* EditItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D151A2522D4F700197290 /* EditItemSheet.swift */; };
+		8598D7EC253B7C420023C19F /* NewFavoriteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598D7EB253B7C420023C19F /* NewFavoriteSheet.swift */; };
+		8598D803253B87E10023C19F /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598D802253B87E10023C19F /* StatisticsView.swift */; };
+		8598D808253BBE640023C19F /* Setting_DailyGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598D807253BBE630023C19F /* Setting_DailyGoalView.swift */; };
+		8598D814253BDF8A0023C19F /* EditFavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598D813253BDF8A0023C19F /* EditFavoritesView.swift */; };
+		8598D819253BDF9B0023C19F /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598D818253BDF9B0023C19F /* FavoritesList.swift */; };
+		85A84070254515E100B95D38 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8406F254515E100B95D38 /* NotificationSettingsView.swift */; };
+		85A8EB0925084ACB00A3E1F3 /* HealthDataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8EB0825084ACB00A3E1F3 /* HealthDataQuery.swift */; };
+		85B4314C24F1CC3600B5FCE5 /* CaffeineTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4314B24F1CC3600B5FCE5 /* CaffeineTrackerApp.swift */; };
+		85B4314E24F1CC3600B5FCE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4314D24F1CC3600B5FCE5 /* ContentView.swift */; };
+		85B4315024F1CC3800B5FCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B4314F24F1CC3800B5FCE5 /* Assets.xcassets */; };
+		85B4315324F1CC3800B5FCE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B4315224F1CC3800B5FCE5 /* Preview Assets.xcassets */; };
+		85B4315524F1CC3800B5FCE5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4315424F1CC3800B5FCE5 /* Persistence.swift */; };
+		85B4315824F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85B4315624F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld */; };
+		85B4316324F1CC3900B5FCE5 /* CaffeineTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4316224F1CC3900B5FCE5 /* CaffeineTrackerTests.swift */; };
+		85B4316E24F1CC3900B5FCE5 /* CaffeineTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4316D24F1CC3900B5FCE5 /* CaffeineTrackerUITests.swift */; };
+		85B4317C24F1CD1100B5FCE5 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4317B24F1CD1100B5FCE5 /* AppView.swift */; };
+		85B4317E24F1D12300B5FCE5 /* AmountGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4317D24F1D12300B5FCE5 /* AmountGauge.swift */; };
+		85B4318024F1D24800B5FCE5 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4317F24F1D24800B5FCE5 /* AppUserDefaults.swift */; };
+		85B4318224F1D29D00B5FCE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4318124F1D29D00B5FCE5 /* SettingsView.swift */; };
+		85E4D1CC253A48160091BE97 /* QuickAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4D1CB253A48160091BE97 /* QuickAddView.swift */; };
+		85F8462D2550E80300FD3054 /* BarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F8462C2550E80300FD3054 /* BarsView.swift */; };
+		85F846442550E82800FD3054 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F846432550E82800FD3054 /* LegendView.swift */; };
+		85F8464D2550E8BC00FD3054 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F8464C2550E8BC00FD3054 /* PieChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8528DA36254FBDCD007228E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B4314024F1CC3600B5FCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8528DA2C254FBDCC007228E7;
+			remoteInfo = CaffeineTrackerIntentUI;
+		};
+		8528DA39254FBDCD007228E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B4314024F1CC3600B5FCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8528DA23254FBDCC007228E7;
+			remoteInfo = CaffeineTrackerIntent;
+		};
+		854EFBD5254900730032BEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B4314024F1CC3600B5FCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854EFBC9254900720032BEE3;
+			remoteInfo = QuickAddWidgetExtension;
+		};
+		854EFBED25490A610032BEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B4314024F1CC3600B5FCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854EFBE325490A5F0032BEE3;
+			remoteInfo = GraphWidgetExtension;
+		};
+		85B4315F24F1CC3800B5FCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B4314024F1CC3600B5FCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B4314724F1CC3600B5FCE5;
+			remoteInfo = CaffeineTracker;
+		};
+		85B4316A24F1CC3900B5FCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B4314024F1CC3600B5FCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B4314724F1CC3600B5FCE5;
+			remoteInfo = CaffeineTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		854EFBD8254900730032BEE3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				854EFBD7254900730032BEE3 /* QuickAddWidgetExtension.appex in Embed App Extensions */,
+				8528DA38254FBDCD007228E7 /* CaffeineTrackerIntentUI.appex in Embed App Extensions */,
+				8528DA3B254FBDCD007228E7 /* CaffeineTrackerIntent.appex in Embed App Extensions */,
+				854EFBEF25490A610032BEE3 /* GraphWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8526D93925522831001F1266 /* CaffeineTrackerIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaffeineTrackerIntent.entitlements; sourceTree = "<group>"; };
+		8526D9412552284C001F1266 /* CaffeineTrackerIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaffeineTrackerIntentUI.entitlements; sourceTree = "<group>"; };
+		8526D94225522895001F1266 /* NSPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainer.swift; sourceTree = "<group>"; };
+		8526D9622552317F001F1266 /* NSCustomPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCustomPersistentContainer.swift; sourceTree = "<group>"; };
+		8526D98B25523677001F1266 /* GraphWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GraphWidgetExtension.entitlements; sourceTree = "<group>"; };
+		8526D99325523682001F1266 /* QuickAddWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickAddWidgetExtension.entitlements; sourceTree = "<group>"; };
+		8528DA24254FBDCC007228E7 /* CaffeineTrackerIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CaffeineTrackerIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8528DA26254FBDCC007228E7 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		8528DA28254FBDCC007228E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8528DA2D254FBDCC007228E7 /* CaffeineTrackerIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CaffeineTrackerIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8528DA30254FBDCC007228E7 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		8528DA33254FBDCC007228E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8528DA35254FBDCD007228E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8528DA49254FBF56007228E7 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		8528DA88254FC78C007228E7 /* HealthDataQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthDataQuery.swift; path = CaffeineTrackerIntent/HealthDataQuery.swift; sourceTree = SOURCE_ROOT; };
+		854EFBCA254900720032BEE3 /* QuickAddWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuickAddWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		854EFBCB254900720032BEE3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		854EFBCD254900720032BEE3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		854EFBD0254900720032BEE3 /* QuickAddWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddWidget.swift; sourceTree = "<group>"; };
+		854EFBD2254900730032BEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854EFBD4254900730032BEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854EFBE425490A5F0032BEE3 /* GraphWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GraphWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		854EFBE825490A5F0032BEE3 /* GraphWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphWidget.swift; sourceTree = "<group>"; };
+		854EFBEA25490A610032BEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854EFBEC25490A610032BEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8550B4C324F6F7CC00C0F895 /* AddItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemSheet.swift; sourceTree = "<group>"; };
+		8550B4C524F7020300C0F895 /* CaffeineTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaffeineTracker.entitlements; sourceTree = "<group>"; };
+		8550B4C724F7020400C0F895 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		858D151A2522D4F700197290 /* EditItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemSheet.swift; sourceTree = "<group>"; };
+		8598D7EB253B7C420023C19F /* NewFavoriteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFavoriteSheet.swift; sourceTree = "<group>"; };
+		8598D802253B87E10023C19F /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		8598D807253BBE630023C19F /* Setting_DailyGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_DailyGoalView.swift; sourceTree = "<group>"; };
+		8598D813253BDF8A0023C19F /* EditFavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFavoritesView.swift; sourceTree = "<group>"; };
+		8598D818253BDF9B0023C19F /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		85A53EAE254F20C20051DE3D /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		85A8406F254515E100B95D38 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		85A8EB0825084ACB00A3E1F3 /* HealthDataQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataQuery.swift; sourceTree = "<group>"; };
+		85B4314824F1CC3600B5FCE5 /* CaffeineTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaffeineTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B4314B24F1CC3600B5FCE5 /* CaffeineTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerApp.swift; sourceTree = "<group>"; };
+		85B4314D24F1CC3600B5FCE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85B4314F24F1CC3800B5FCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85B4315224F1CC3800B5FCE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85B4315424F1CC3800B5FCE5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		85B4315724F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaffeineTracker.xcdatamodel; sourceTree = "<group>"; };
+		85B4315924F1CC3800B5FCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B4315E24F1CC3800B5FCE5 /* CaffeineTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffeineTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B4316224F1CC3900B5FCE5 /* CaffeineTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerTests.swift; sourceTree = "<group>"; };
+		85B4316424F1CC3900B5FCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B4316924F1CC3900B5FCE5 /* CaffeineTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffeineTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B4316D24F1CC3900B5FCE5 /* CaffeineTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerUITests.swift; sourceTree = "<group>"; };
+		85B4316F24F1CC3900B5FCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B4317B24F1CD1100B5FCE5 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		85B4317D24F1D12300B5FCE5 /* AmountGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountGauge.swift; sourceTree = "<group>"; };
+		85B4317F24F1D24800B5FCE5 /* AppUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		85B4318124F1D29D00B5FCE5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		85E4D1CB253A48160091BE97 /* QuickAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddView.swift; sourceTree = "<group>"; };
+		85F8462C2550E80300FD3054 /* BarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsView.swift; sourceTree = "<group>"; };
+		85F846432550E82800FD3054 /* LegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendView.swift; sourceTree = "<group>"; };
+		85F8464C2550E8BC00FD3054 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8528DA21254FBDCC007228E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8528DA2A254FBDCC007228E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8528DA2E254FBDCC007228E7 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854EFBC7254900720032BEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854EFBCE254900720032BEE3 /* SwiftUI.framework in Frameworks */,
+				854EFBCC254900720032BEE3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854EFBE125490A5F0032BEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854EFBE625490A5F0032BEE3 /* SwiftUI.framework in Frameworks */,
+				854EFBE525490A5F0032BEE3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4314524F1CC3600B5FCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8550B4C824F7020400C0F895 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4315B24F1CC3800B5FCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4316624F1CC3900B5FCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8528DA25254FBDCC007228E7 /* CaffeineTrackerIntent */ = {
+			isa = PBXGroup;
+			children = (
+				8526D93925522831001F1266 /* CaffeineTrackerIntent.entitlements */,
+				8528DA26254FBDCC007228E7 /* IntentHandler.swift */,
+				8528DA88254FC78C007228E7 /* HealthDataQuery.swift */,
+				8528DA28254FBDCC007228E7 /* Info.plist */,
+			);
+			path = CaffeineTrackerIntent;
+			sourceTree = "<group>";
+		};
+		8528DA2F254FBDCC007228E7 /* CaffeineTrackerIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				8526D9412552284C001F1266 /* CaffeineTrackerIntentUI.entitlements */,
+				8528DA30254FBDCC007228E7 /* IntentViewController.swift */,
+				8528DA32254FBDCC007228E7 /* MainInterface.storyboard */,
+				8528DA35254FBDCD007228E7 /* Info.plist */,
+			);
+			path = CaffeineTrackerIntentUI;
+			sourceTree = "<group>";
+		};
+		854EFBCF254900720032BEE3 /* QuickAddWidget */ = {
+			isa = PBXGroup;
+			children = (
+				854EFBD0254900720032BEE3 /* QuickAddWidget.swift */,
+				854EFBD2254900730032BEE3 /* Assets.xcassets */,
+				854EFBD4254900730032BEE3 /* Info.plist */,
+			);
+			path = QuickAddWidget;
+			sourceTree = "<group>";
+		};
+		854EFBE725490A5F0032BEE3 /* GraphWidget */ = {
+			isa = PBXGroup;
+			children = (
+				854EFBE825490A5F0032BEE3 /* GraphWidget.swift */,
+				8526D9622552317F001F1266 /* NSCustomPersistentContainer.swift */,
+				854EFBEA25490A610032BEE3 /* Assets.xcassets */,
+				854EFBEC25490A610032BEE3 /* Info.plist */,
+			);
+			path = GraphWidget;
+			sourceTree = "<group>";
+		};
+		8550B4C624F7020400C0F895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8550B4C724F7020400C0F895 /* HealthKit.framework */,
+				854EFBCB254900720032BEE3 /* WidgetKit.framework */,
+				854EFBCD254900720032BEE3 /* SwiftUI.framework */,
+				85A53EAE254F20C20051DE3D /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8598D7F0253B7C4C0023C19F /* QuickAddView */ = {
+			isa = PBXGroup;
+			children = (
+				85E4D1CB253A48160091BE97 /* QuickAddView.swift */,
+				8598D7EB253B7C420023C19F /* NewFavoriteSheet.swift */,
+			);
+			path = QuickAddView;
+			sourceTree = "<group>";
+		};
+		8598D7F4253B7C5E0023C19F /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				85B4314D24F1CC3600B5FCE5 /* ContentView.swift */,
+				8550B4C324F6F7CC00C0F895 /* AddItemSheet.swift */,
+				858D151A2522D4F700197290 /* EditItemSheet.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		8598D7F8253B7C700023C19F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85B4317F24F1D24800B5FCE5 /* AppUserDefaults.swift */,
+				85A8EB0825084ACB00A3E1F3 /* HealthDataQuery.swift */,
+				8526D94225522895001F1266 /* NSPersistentContainer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8598D80C253BBE690023C19F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				85B4318124F1D29D00B5FCE5 /* SettingsView.swift */,
+				8598D807253BBE630023C19F /* Setting_DailyGoalView.swift */,
+				8598D818253BDF9B0023C19F /* FavoritesList.swift */,
+				8598D813253BDF8A0023C19F /* EditFavoritesView.swift */,
+				85A8406F254515E100B95D38 /* NotificationSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		85B4313F24F1CC3600B5FCE5 = {
+			isa = PBXGroup;
+			children = (
+				8526D99325523682001F1266 /* QuickAddWidgetExtension.entitlements */,
+				8526D98B25523677001F1266 /* GraphWidgetExtension.entitlements */,
+				85B4314A24F1CC3600B5FCE5 /* CaffeineTracker */,
+				85B4316124F1CC3900B5FCE5 /* CaffeineTrackerTests */,
+				85B4316C24F1CC3900B5FCE5 /* CaffeineTrackerUITests */,
+				854EFBCF254900720032BEE3 /* QuickAddWidget */,
+				854EFBE725490A5F0032BEE3 /* GraphWidget */,
+				8528DA25254FBDCC007228E7 /* CaffeineTrackerIntent */,
+				8528DA2F254FBDCC007228E7 /* CaffeineTrackerIntentUI */,
+				85B4314924F1CC3600B5FCE5 /* Products */,
+				8550B4C624F7020400C0F895 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85B4314924F1CC3600B5FCE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B4314824F1CC3600B5FCE5 /* CaffeineTracker.app */,
+				85B4315E24F1CC3800B5FCE5 /* CaffeineTrackerTests.xctest */,
+				85B4316924F1CC3900B5FCE5 /* CaffeineTrackerUITests.xctest */,
+				854EFBCA254900720032BEE3 /* QuickAddWidgetExtension.appex */,
+				854EFBE425490A5F0032BEE3 /* GraphWidgetExtension.appex */,
+				8528DA24254FBDCC007228E7 /* CaffeineTrackerIntent.appex */,
+				8528DA2D254FBDCC007228E7 /* CaffeineTrackerIntentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85B4314A24F1CC3600B5FCE5 /* CaffeineTracker */ = {
+			isa = PBXGroup;
+			children = (
+				8550B4C524F7020300C0F895 /* CaffeineTracker.entitlements */,
+				8528DA49254FBF56007228E7 /* Intents.intentdefinition */,
+				85B4314B24F1CC3600B5FCE5 /* CaffeineTrackerApp.swift */,
+				85B4317B24F1CD1100B5FCE5 /* AppView.swift */,
+				85B4317D24F1D12300B5FCE5 /* AmountGauge.swift */,
+				8598D7F8253B7C700023C19F /* Classes */,
+				8598D7F4253B7C5E0023C19F /* ListView */,
+				8598D7F0253B7C4C0023C19F /* QuickAddView */,
+				85F846242550E7DF00FD3054 /* StatisticsView */,
+				8598D80C253BBE690023C19F /* Settings */,
+				85B4314F24F1CC3800B5FCE5 /* Assets.xcassets */,
+				85B4315424F1CC3800B5FCE5 /* Persistence.swift */,
+				85B4315924F1CC3800B5FCE5 /* Info.plist */,
+				85B4315624F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld */,
+				85B4315124F1CC3800B5FCE5 /* Preview Content */,
+			);
+			path = CaffeineTracker;
+			sourceTree = "<group>";
+		};
+		85B4315124F1CC3800B5FCE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85B4315224F1CC3800B5FCE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85B4316124F1CC3900B5FCE5 /* CaffeineTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				85B4316224F1CC3900B5FCE5 /* CaffeineTrackerTests.swift */,
+				85B4316424F1CC3900B5FCE5 /* Info.plist */,
+			);
+			path = CaffeineTrackerTests;
+			sourceTree = "<group>";
+		};
+		85B4316C24F1CC3900B5FCE5 /* CaffeineTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85B4316D24F1CC3900B5FCE5 /* CaffeineTrackerUITests.swift */,
+				85B4316F24F1CC3900B5FCE5 /* Info.plist */,
+			);
+			path = CaffeineTrackerUITests;
+			sourceTree = "<group>";
+		};
+		85F846242550E7DF00FD3054 /* StatisticsView */ = {
+			isa = PBXGroup;
+			children = (
+				8598D802253B87E10023C19F /* StatisticsView.swift */,
+				85F8464C2550E8BC00FD3054 /* PieChart.swift */,
+				85F846432550E82800FD3054 /* LegendView.swift */,
+				85F8462C2550E80300FD3054 /* BarsView.swift */,
+			);
+			path = StatisticsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8528DA23254FBDCC007228E7 /* CaffeineTrackerIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8528DA3F254FBDCD007228E7 /* Build configuration list for PBXNativeTarget "CaffeineTrackerIntent" */;
+			buildPhases = (
+				8528DA20254FBDCC007228E7 /* Sources */,
+				8528DA21254FBDCC007228E7 /* Frameworks */,
+				8528DA22254FBDCC007228E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaffeineTrackerIntent;
+			productName = CaffeineTrackerIntent;
+			productReference = 8528DA24254FBDCC007228E7 /* CaffeineTrackerIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8528DA2C254FBDCC007228E7 /* CaffeineTrackerIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8528DA3C254FBDCD007228E7 /* Build configuration list for PBXNativeTarget "CaffeineTrackerIntentUI" */;
+			buildPhases = (
+				8528DA29254FBDCC007228E7 /* Sources */,
+				8528DA2A254FBDCC007228E7 /* Frameworks */,
+				8528DA2B254FBDCC007228E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaffeineTrackerIntentUI;
+			productName = CaffeineTrackerIntentUI;
+			productReference = 8528DA2D254FBDCC007228E7 /* CaffeineTrackerIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		854EFBC9254900720032BEE3 /* QuickAddWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854EFBDB254900730032BEE3 /* Build configuration list for PBXNativeTarget "QuickAddWidgetExtension" */;
+			buildPhases = (
+				854EFBC6254900720032BEE3 /* Sources */,
+				854EFBC7254900720032BEE3 /* Frameworks */,
+				854EFBC8254900720032BEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickAddWidgetExtension;
+			productName = QuickAddWidgetExtension;
+			productReference = 854EFBCA254900720032BEE3 /* QuickAddWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		854EFBE325490A5F0032BEE3 /* GraphWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854EFBF025490A610032BEE3 /* Build configuration list for PBXNativeTarget "GraphWidgetExtension" */;
+			buildPhases = (
+				854EFBE025490A5F0032BEE3 /* Sources */,
+				854EFBE125490A5F0032BEE3 /* Frameworks */,
+				854EFBE225490A5F0032BEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphWidgetExtension;
+			productName = GraphWidgetExtension;
+			productReference = 854EFBE425490A5F0032BEE3 /* GraphWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		85B4314724F1CC3600B5FCE5 /* CaffeineTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B4317224F1CC3900B5FCE5 /* Build configuration list for PBXNativeTarget "CaffeineTracker" */;
+			buildPhases = (
+				85B4314424F1CC3600B5FCE5 /* Sources */,
+				85B4314524F1CC3600B5FCE5 /* Frameworks */,
+				85B4314624F1CC3600B5FCE5 /* Resources */,
+				854EFBD8254900730032BEE3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854EFBD6254900730032BEE3 /* PBXTargetDependency */,
+				854EFBEE25490A610032BEE3 /* PBXTargetDependency */,
+				8528DA37254FBDCD007228E7 /* PBXTargetDependency */,
+				8528DA3A254FBDCD007228E7 /* PBXTargetDependency */,
+			);
+			name = CaffeineTracker;
+			productName = CaffeineTracker;
+			productReference = 85B4314824F1CC3600B5FCE5 /* CaffeineTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85B4315D24F1CC3800B5FCE5 /* CaffeineTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B4317524F1CC3900B5FCE5 /* Build configuration list for PBXNativeTarget "CaffeineTrackerTests" */;
+			buildPhases = (
+				85B4315A24F1CC3800B5FCE5 /* Sources */,
+				85B4315B24F1CC3800B5FCE5 /* Frameworks */,
+				85B4315C24F1CC3800B5FCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B4316024F1CC3800B5FCE5 /* PBXTargetDependency */,
+			);
+			name = CaffeineTrackerTests;
+			productName = CaffeineTrackerTests;
+			productReference = 85B4315E24F1CC3800B5FCE5 /* CaffeineTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85B4316824F1CC3900B5FCE5 /* CaffeineTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B4317824F1CC3900B5FCE5 /* Build configuration list for PBXNativeTarget "CaffeineTrackerUITests" */;
+			buildPhases = (
+				85B4316524F1CC3900B5FCE5 /* Sources */,
+				85B4316624F1CC3900B5FCE5 /* Frameworks */,
+				85B4316724F1CC3900B5FCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B4316B24F1CC3900B5FCE5 /* PBXTargetDependency */,
+			);
+			name = CaffeineTrackerUITests;
+			productName = CaffeineTrackerUITests;
+			productReference = 85B4316924F1CC3900B5FCE5 /* CaffeineTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B4314024F1CC3600B5FCE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8528DA23254FBDCC007228E7 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8528DA2C254FBDCC007228E7 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					854EFBC9254900720032BEE3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					854EFBE325490A5F0032BEE3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					85B4314724F1CC3600B5FCE5 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					85B4315D24F1CC3800B5FCE5 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 85B4314724F1CC3600B5FCE5;
+					};
+					85B4316824F1CC3900B5FCE5 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 85B4314724F1CC3600B5FCE5;
+					};
+				};
+			};
+			buildConfigurationList = 85B4314324F1CC3600B5FCE5 /* Build configuration list for PBXProject "CaffeineTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B4313F24F1CC3600B5FCE5;
+			productRefGroup = 85B4314924F1CC3600B5FCE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B4314724F1CC3600B5FCE5 /* CaffeineTracker */,
+				85B4315D24F1CC3800B5FCE5 /* CaffeineTrackerTests */,
+				85B4316824F1CC3900B5FCE5 /* CaffeineTrackerUITests */,
+				854EFBC9254900720032BEE3 /* QuickAddWidgetExtension */,
+				854EFBE325490A5F0032BEE3 /* GraphWidgetExtension */,
+				8528DA23254FBDCC007228E7 /* CaffeineTrackerIntent */,
+				8528DA2C254FBDCC007228E7 /* CaffeineTrackerIntentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8528DA22254FBDCC007228E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8528DA2B254FBDCC007228E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8528DA34254FBDCC007228E7 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854EFBC8254900720032BEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854EFBD3254900730032BEE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854EFBE225490A5F0032BEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854EFBEB25490A610032BEE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4314624F1CC3600B5FCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B4315324F1CC3800B5FCE5 /* Preview Assets.xcassets in Resources */,
+				85B4315024F1CC3800B5FCE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4315C24F1CC3800B5FCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4316724F1CC3900B5FCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8528DA20254FBDCC007228E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8528DA71254FC555007228E7 /* Intents.intentdefinition in Sources */,
+				8526D95225522943001F1266 /* CaffeineTracker.xcdatamodeld in Sources */,
+				8528DA27254FBDCC007228E7 /* IntentHandler.swift in Sources */,
+				8528DA91254FC791007228E7 /* HealthDataQuery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8528DA29254FBDCC007228E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8528DA79254FC557007228E7 /* Intents.intentdefinition in Sources */,
+				8526D98325523531001F1266 /* CaffeineTracker.xcdatamodeld in Sources */,
+				8528DA31254FBDCC007228E7 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854EFBC6254900720032BEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854EFBD1254900720032BEE3 /* QuickAddWidget.swift in Sources */,
+				8526D97B2552352F001F1266 /* CaffeineTracker.xcdatamodeld in Sources */,
+				8526D96B25523268001F1266 /* NSPersistentContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854EFBE025490A5F0032BEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854EFBE925490A5F0032BEE3 /* GraphWidget.swift in Sources */,
+				8526D973255232B4001F1266 /* NSPersistentContainer.swift in Sources */,
+				8526D95A25522C5C001F1266 /* CaffeineTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4314424F1CC3600B5FCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858D151B2522D4F700197290 /* EditItemSheet.swift in Sources */,
+				8598D819253BDF9B0023C19F /* FavoritesList.swift in Sources */,
+				85A8EB0925084ACB00A3E1F3 /* HealthDataQuery.swift in Sources */,
+				8528DA4A254FBF56007228E7 /* Intents.intentdefinition in Sources */,
+				85F8462D2550E80300FD3054 /* BarsView.swift in Sources */,
+				85F8464D2550E8BC00FD3054 /* PieChart.swift in Sources */,
+				85B4315524F1CC3800B5FCE5 /* Persistence.swift in Sources */,
+				8526D94325522895001F1266 /* NSPersistentContainer.swift in Sources */,
+				8598D803253B87E10023C19F /* StatisticsView.swift in Sources */,
+				85B4318224F1D29D00B5FCE5 /* SettingsView.swift in Sources */,
+				85A84070254515E100B95D38 /* NotificationSettingsView.swift in Sources */,
+				8550B4C424F6F7CC00C0F895 /* AddItemSheet.swift in Sources */,
+				8526D9632552317F001F1266 /* NSCustomPersistentContainer.swift in Sources */,
+				8598D814253BDF8A0023C19F /* EditFavoritesView.swift in Sources */,
+				85B4317E24F1D12300B5FCE5 /* AmountGauge.swift in Sources */,
+				85B4315824F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld in Sources */,
+				8598D7EC253B7C420023C19F /* NewFavoriteSheet.swift in Sources */,
+				85B4314E24F1CC3600B5FCE5 /* ContentView.swift in Sources */,
+				85E4D1CC253A48160091BE97 /* QuickAddView.swift in Sources */,
+				8598D808253BBE640023C19F /* Setting_DailyGoalView.swift in Sources */,
+				85B4318024F1D24800B5FCE5 /* AppUserDefaults.swift in Sources */,
+				85B4317C24F1CD1100B5FCE5 /* AppView.swift in Sources */,
+				85F846442550E82800FD3054 /* LegendView.swift in Sources */,
+				85B4314C24F1CC3600B5FCE5 /* CaffeineTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4315A24F1CC3800B5FCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B4316324F1CC3900B5FCE5 /* CaffeineTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B4316524F1CC3900B5FCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B4316E24F1CC3900B5FCE5 /* CaffeineTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8528DA37254FBDCD007228E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8528DA2C254FBDCC007228E7 /* CaffeineTrackerIntentUI */;
+			targetProxy = 8528DA36254FBDCD007228E7 /* PBXContainerItemProxy */;
+		};
+		8528DA3A254FBDCD007228E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8528DA23254FBDCC007228E7 /* CaffeineTrackerIntent */;
+			targetProxy = 8528DA39254FBDCD007228E7 /* PBXContainerItemProxy */;
+		};
+		854EFBD6254900730032BEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854EFBC9254900720032BEE3 /* QuickAddWidgetExtension */;
+			targetProxy = 854EFBD5254900730032BEE3 /* PBXContainerItemProxy */;
+		};
+		854EFBEE25490A610032BEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854EFBE325490A5F0032BEE3 /* GraphWidgetExtension */;
+			targetProxy = 854EFBED25490A610032BEE3 /* PBXContainerItemProxy */;
+		};
+		85B4316024F1CC3800B5FCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B4314724F1CC3600B5FCE5 /* CaffeineTracker */;
+			targetProxy = 85B4315F24F1CC3800B5FCE5 /* PBXContainerItemProxy */;
+		};
+		85B4316B24F1CC3900B5FCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B4314724F1CC3600B5FCE5 /* CaffeineTracker */;
+			targetProxy = 85B4316A24F1CC3900B5FCE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8528DA32254FBDCC007228E7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8528DA33254FBDCC007228E7 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8528DA3D254FBDCD007228E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CaffeineTrackerIntentUI/CaffeineTrackerIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.CaffeineTrackerIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8528DA3E254FBDCD007228E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CaffeineTrackerIntentUI/CaffeineTrackerIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.CaffeineTrackerIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8528DA40254FBDCD007228E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CaffeineTrackerIntent/CaffeineTrackerIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.CaffeineTrackerIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8528DA41254FBDCD007228E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CaffeineTrackerIntent/CaffeineTrackerIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.CaffeineTrackerIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		854EFBD9254900730032BEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = QuickAddWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = QuickAddWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.QuickAddWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		854EFBDA254900730032BEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = QuickAddWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = QuickAddWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.QuickAddWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		854EFBF125490A610032BEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GraphWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = GraphWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.GraphWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		854EFBF225490A610032BEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GraphWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = GraphWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker.GraphWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85B4317024F1CC3900B5FCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85B4317124F1CC3900B5FCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B4317324F1CC3900B5FCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CaffeineTracker/CaffeineTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CaffeineTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CaffeineTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		85B4317424F1CC3900B5FCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CaffeineTracker/CaffeineTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CaffeineTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CaffeineTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		85B4317624F1CC3900B5FCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaffeineTracker.app/CaffeineTracker";
+			};
+			name = Debug;
+		};
+		85B4317724F1CC3900B5FCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaffeineTracker.app/CaffeineTracker";
+			};
+			name = Release;
+		};
+		85B4317924F1CC3900B5FCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaffeineTracker;
+			};
+			name = Debug;
+		};
+		85B4317A24F1CC3900B5FCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH83KGR34Y;
+				INFOPLIST_FILE = CaffeineTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigertenzin.CaffeineTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaffeineTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8528DA3C254FBDCD007228E7 /* Build configuration list for PBXNativeTarget "CaffeineTrackerIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8528DA3D254FBDCD007228E7 /* Debug */,
+				8528DA3E254FBDCD007228E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8528DA3F254FBDCD007228E7 /* Build configuration list for PBXNativeTarget "CaffeineTrackerIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8528DA40254FBDCD007228E7 /* Debug */,
+				8528DA41254FBDCD007228E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854EFBDB254900730032BEE3 /* Build configuration list for PBXNativeTarget "QuickAddWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854EFBD9254900730032BEE3 /* Debug */,
+				854EFBDA254900730032BEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854EFBF025490A610032BEE3 /* Build configuration list for PBXNativeTarget "GraphWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854EFBF125490A610032BEE3 /* Debug */,
+				854EFBF225490A610032BEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B4314324F1CC3600B5FCE5 /* Build configuration list for PBXProject "CaffeineTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B4317024F1CC3900B5FCE5 /* Debug */,
+				85B4317124F1CC3900B5FCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B4317224F1CC3900B5FCE5 /* Build configuration list for PBXNativeTarget "CaffeineTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B4317324F1CC3900B5FCE5 /* Debug */,
+				85B4317424F1CC3900B5FCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B4317524F1CC3900B5FCE5 /* Build configuration list for PBXNativeTarget "CaffeineTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B4317624F1CC3900B5FCE5 /* Debug */,
+				85B4317724F1CC3900B5FCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B4317824F1CC3900B5FCE5 /* Build configuration list for PBXNativeTarget "CaffeineTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B4317924F1CC3900B5FCE5 /* Debug */,
+				85B4317A24F1CC3900B5FCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85B4315624F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85B4315724F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodel */,
+			);
+			currentVersion = 85B4315724F1CC3800B5FCE5 /* CaffeineTracker.xcdatamodel */;
+			path = CaffeineTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85B4314024F1CC3600B5FCE5 /* Project object */;
+}
