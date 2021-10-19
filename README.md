@@ -17,5 +17,5 @@ Other features were also planned, such as incorporating water intake and sleep h
 
 ## Screenshots
 
-![Image of List](screenshots/sc_list)
-![Image of Stats](screenshots/sc_stats)
+![Image of List](/screenshots/sc_list)
+![Image of Stats](/screenshots/sc_stats)
