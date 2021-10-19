@@ -14,3 +14,8 @@ Current features of the app:
 The project is unpolished and unfinished but, for the most part, functional. Bugs are present, especially when trying to interface with HealthKit and preexisting data. 
 
 Other features were also planned, such as incorporating water intake and sleep hours, to try and correlate these with caffeine intake. Maybe for the future. 
+
+## Screenshots
+
+![Image of List](screenshots/sc_list)
+![Image of Stats](screenshots/sc_stats)
